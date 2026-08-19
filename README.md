@@ -29,3 +29,32 @@ Drop a folder into `~/.claude/skills/` (or your project's `.claude/skills/`) to 
 - **[research-methodology-and-frontier](skills/research-methodology-and-frontier)** — Turn a hunch into a testable claim; judge whether a result is real; plan experiments and benchmarks.
 - **[resume-and-career-ops](skills/resume-and-career-ops)** — Resume tailoring against a job description, inventory YAMLs, LaTeX compilation, career-surface positioning.
 - **[sysdesignvault-platform](skills/sysdesignvault-platform)** — Project-specific playbook for an MDX-based learning platform: concepts, widgets, data pipeline, progress tracking.
+
+## Project-specific skills
+
+Skills that live inside a single repo's own `.claude/skills/` — scoped to that project, not general-purpose.
+
+### heimdall
+- **[demo](skills-project/heimdall/demo)** — Local variant of the root `demo` skill, tailored to this repo.
+
+### my-wiki
+- **[ingest-url](skills-project/my-wiki/ingest-url)** — Ingest a URL (blog post, article, docs page) into the wiki via the same pipeline as `raw/` sources, with a fallback past plain fetch for JS-rendered or blocked sites.
+
+### resume
+- **[scout](skills-project/resume/scout)** — Given a job description, proposes the 1-2 portfolio projects worth building to become a credible hire for that role, chosen to patch gaps existing evidence can't cover.
+- **[tailor](skills-project/resume/tailor)** — Tailors the LaTeX resume to a job description: infers the role family, selects tagged bullets, applies a section-order recipe, compiles with Tectonic, writes output + rationale.
+
+### sysdesignvault
+- **[brandkit](skills-project/sysdesignvault/brandkit)** — Premium brand-kit image generation: logo systems, identity decks, visual-world presentations.
+- **[design-taste-frontend](skills-project/sysdesignvault/design-taste-frontend)** — Anti-slop frontend skill for landing pages, portfolios, and redesigns that don't look templated (v2, current default).
+- **[design-taste-frontend-v1](skills-project/sysdesignvault/design-taste-frontend-v1)** — Original v1 taste-skill, preserved for exact-behavior backward compatibility.
+- **[full-output-enforcement](skills-project/sysdesignvault/full-output-enforcement)** — Overrides default LLM truncation: complete code generation, no placeholders, clean token-limit splits.
+- **[gpt-taste](skills-project/sysdesignvault/gpt-taste)** — UX/UI and GSAP motion engineering: layout randomization, AIDA structure, editorial typography, scroll-triggered animation.
+- **[high-end-visual-design](skills-project/sysdesignvault/high-end-visual-design)** — Fonts, spacing, shadows, card structures, and animations for an agency-quality feel; blocks generic AI-design defaults.
+- **[image-to-code](skills-project/sysdesignvault/image-to-code)** — Generates design reference images first, analyzes them, then implements the website to match, section by section.
+- **[imagegen-frontend-mobile](skills-project/sysdesignvault/imagegen-frontend-mobile)** — Premium app-native mobile screen concepts and flows (image generation only, no code).
+- **[imagegen-frontend-web](skills-project/sysdesignvault/imagegen-frontend-web)** — Premium website design-reference images, one per section, with composition and palette variety enforced.
+- **[industrial-brutalist-ui](skills-project/sysdesignvault/industrial-brutalist-ui)** — Swiss typographic print fused with military terminal aesthetics for data-heavy dashboards and editorial sites.
+- **[minimalist-ui](skills-project/sysdesignvault/minimalist-ui)** — Clean editorial interfaces: warm monochrome palette, typographic contrast, flat bento grids.
+- **[redesign-existing-projects](skills-project/sysdesignvault/redesign-existing-projects)** — Audits an existing site/app and upgrades it to premium quality without breaking functionality.
+- **[stitch-design-taste](skills-project/sysdesignvault/stitch-design-taste)** — Generates agent-friendly DESIGN.md files enforcing premium, anti-generic UI standards for Google Stitch.
