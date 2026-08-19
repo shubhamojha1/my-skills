@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tailor Resume"
+  short_description: "Create factual, human-sounding tailored resumes"
+  default_prompt: "Use $tailor-resume to tailor my resume to this job description and produce a verified submission-ready PDF."

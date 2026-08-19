@@ -58,3 +58,10 @@ Skills that live inside a single repo's own `.claude/skills/` — scoped to that
 - **[minimalist-ui](skills-project/sysdesignvault/minimalist-ui)** — Clean editorial interfaces: warm monochrome palette, typographic contrast, flat bento grids.
 - **[redesign-existing-projects](skills-project/sysdesignvault/redesign-existing-projects)** — Audits an existing site/app and upgrades it to premium quality without breaking functionality.
 - **[stitch-design-taste](skills-project/sysdesignvault/stitch-design-taste)** — Generates agent-friendly DESIGN.md files enforcing premium, anti-generic UI standards for Google Stitch.
+
+## Codex skills
+
+Root-level skills for the OpenAI Codex CLI (`~/.codex/skills/`), not Claude Code.
+
+- **[should-i-contribute](skills-codex/should-i-contribute)** — Evaluates whether an open-source repo is worth contributing to: contributor reception, maintenance, governance, licensing, project fit. Returns GO / GO-IF / NO-GO with confidence and cited evidence.
+- **[tailor-resume](skills-codex/tailor-resume)** — Codex-native resume tailoring: rewrites the one-page LaTeX resume to a job description, grounded only in verified evidence, producing a submission-ready PDF.

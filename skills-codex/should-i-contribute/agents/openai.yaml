@@ -1,0 +1,4 @@
+interface:
+  display_name: "Should I Contribute?"
+  short_description: "Evaluate a repository before contributing"
+  default_prompt: "Use $should-i-contribute to assess whether I should contribute to this repository."
